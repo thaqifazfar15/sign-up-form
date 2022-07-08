@@ -1,0 +1,74 @@
+/* ---------- Global Class ---------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -----x---- Global Class ----x----- */
+
+/* ---------- Left Container ---------- */
+
+.bg-container {
+  height: 100%;
+  width: 35%;
+  background-image: url(/img/bg.jpg);
+  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.logo-container {
+  transform: scaleX(-1);
+}
+
+/* -----x---- Left Container ----x----- */
+
+/* ---------- Right Container ---------- */
+
+.right-container {
+  padding-inline: 3em;
+  height: 100%;
+  min-width: 65%;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(31, 29, 29);
+}
+
+.btn-submit {
+  margin: 4em 0 2em;
+  padding: 2em 5em;
+  border-radius: 5px;
+  border: 2px solid rgb(193, 78, 78);
+  background: transparent;
+}
+
+.btn-submit:hover {
+  background-color: rgb(193, 78, 78);
+}
+
+/* -----x---- Right Container ----x----- */
