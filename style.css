@@ -34,7 +34,7 @@ form {
 .bg-container {
   height: 100%;
   width: 35%;
-  background-image: url(/img/bg.jpg);
+  background-image: url(img/bg.jpg);
   background-color: blueviolet;
   background-repeat: no-repeat;
   background-position: center;
