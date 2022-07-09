@@ -38,7 +38,7 @@ form {
 
 .bg-container {
   height: 100%;
-  width: 40%;
+  min-width: 40%;
   background-image: url(img/bg.jpg);
   background-color: blueviolet;
   background-repeat: no-repeat;
@@ -80,6 +80,7 @@ form {
 .form > div > form > label {
   font-size: 0.8rem;
   font-weight: lighter;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .btn-submit {
