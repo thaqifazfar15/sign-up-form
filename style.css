@@ -11,6 +11,11 @@ body {
 * {
   box-sizing: border-box;
   color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.bold {
+  font-weight: 600;
 }
 
 .flex-col {
@@ -33,7 +38,7 @@ form {
 
 .bg-container {
   height: 100%;
-  width: 35%;
+  width: 40%;
   background-image: url(img/bg.jpg);
   background-color: blueviolet;
   background-repeat: no-repeat;
@@ -53,10 +58,28 @@ form {
 .right-container {
   padding-inline: 3em;
   height: 100%;
-  min-width: 65%;
+  min-width: 60%;
   justify-content: center;
   align-items: flex-start;
   background-color: rgb(31, 29, 29);
+}
+
+.main-text {
+  font-size: 1.4rem;
+  width: 70%;
+}
+
+.form {
+  margin-top: 3rem;
+}
+
+.form > span {
+  font-size: 1.4rem;
+}
+
+.form > div > form > label {
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
 
 .btn-submit {
