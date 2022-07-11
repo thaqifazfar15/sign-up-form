@@ -11,57 +11,68 @@
   <body class="flex-row">
     <div class="bg-container">
       <div class="logo-container">
-        <img />
-        <span>GameNerd</span>
+        <img src="img/rovio.svg" alt="Rovio Logo" />
+        <span>RATIO</span>
       </div>
     </div>
     <div class="flex-col right-container">
-      <span class="main-text bold"
+      <span class="main-text"
         >This is not a real online service! You know you need something like
         this to help you realize your deepest dreams. <br />
         Sign up <em>now</em> to get started.
         <p>You <em>know</em> you want to.</p>
       </span>
       <div class="form">
-        <span class="bold">Let's do this!</span>
+        <span class="">Let's do this!</span>
         <p></p>
         <div class="flex-row">
-          <form action="#" method="post">
+          <form action="" method="post">
             <label for="first_name">FIRST NAME</label>
-            <input type="text" name="first_name" id="first_name" />
+            <input type="text" name="first_name" id="first_name" required />
           </form>
-          <form action="#" method="post">
+          <form action="" method="post">
             <label for="last_name">LAST NAME</label>
-            <input type="text" name="last_name" id="last_name" />
+            <input type="text" name="last_name" id="last_name" required />
           </form>
         </div>
         <div class="flex-row">
-          <form action="#" method="post">
+          <form action="" method="post">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
           </form>
-          <form action="#" method="post">
+          <form action="" method="post">
             <label for="phone_number">PHONE NUMBER</label>
-            <input type="phone_number" name="phone_number" id="phone_number" />
+            <input
+              type="phone_number"
+              name="phone_number"
+              id="phone_number"
+              required
+            />
           </form>
         </div>
         <div class="flex-row">
-          <form action="#" method="post">
+          <form action="" method="post">
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" required />
           </form>
-          <form action="#" method="post">
+          <form action="" method="post">
             <label for="confirm_password">CONFIRM PASSWORD</label>
             <input
               type="password"
               name="confirm_password"
               id="confirm_password"
+              required
             />
           </form>
         </div>
+        <span class="pass-msg"></span>
       </div>
-      <button class="btn-submit" type="submit">Create Account</button>
-      <p class="bold">Already have an account? <a href="#">Log in</a></p>
+      <div class="button-container">
+        <button class="btn-submit bold" type="submit">Create Account</button>
+        <p class="">
+          Already have an account? <a href="#" class="bold">Log in</a>
+        </p>
+      </div>
     </div>
   </body>
 </html>
