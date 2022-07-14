@@ -18,7 +18,19 @@ This sign up form project is for an imaginary service.
 
 ## What I Learned
 
--
+- How to use pseudo class.
+- How to validate password with JS.
+
+## TO DO
+
+- Make this website responsive.
+- Change the border of the input. Current border is too bright.
+- Add hover effect to button.
+- Change dummy logo name to Rovio.
+- Add placeholder text to input.
+- Use JS to validate other input.
+- Add '\*' to required input.
+- Add my Github link and trademark in website.
 
 ## Acknowledgement
 
